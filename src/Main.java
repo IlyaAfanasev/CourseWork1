@@ -32,6 +32,7 @@ public class Main {
         System.out.println();
 
         employeeBooks.printEmployeesNames();
+        System.out.println();
 
         employeeBooks.salaryIndexing(10);
         System.out.println(employeeBooks);
