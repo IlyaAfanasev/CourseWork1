@@ -16,18 +16,12 @@ public class EmployeeBook {
         employees[size++] = newEmployee;
     }
 
-    private String printEmployees() {
+    @Override
+    public String toString() {
         for (Employee employee : employees) {
             System.out.println(employee);
         }
-        return "";
-    }
-
-    @Override
-    public String toString() {
-
-        return printEmployees();
-
+        return "";//Не знаю как еще это сделать
 
     }
 

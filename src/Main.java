@@ -17,7 +17,7 @@ public class Main {
         employeeBooks.addEmployee("Рочев", "Александр", "Владимирович",5, 44_000);
         employeeBooks.addEmployee("Волков", "Илья", "Романович",5, 48_000);
 
-        System.out.println(employeeBooks);
+        /*System.out.println(employeeBooks);
 
         employeeBooks.sumSalary();
         System.out.println();
@@ -38,7 +38,7 @@ public class Main {
         System.out.println(employeeBooks);
 
         employeeBooks.minSalaryDepartment(1);
-        employeeBooks.maxSalaryDepartment(1);
-
+        employeeBooks.maxSalaryDepartment(1);*/
+        System.out.println(employeeBooks);
     }
 }
