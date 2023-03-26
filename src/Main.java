@@ -81,7 +81,7 @@ public class Main {
         System.out.println(employeeBooks);
 
         System.out.println("У нового сотрудника изменили отдел и зарплату");
-        employeeBooks.changeSalaryAndDepartment("Булдаков", "Максим", "Олегович", 1, 62000);
+        employeeBooks.changeSalaryAndDepartment("Булдаков", "Максим", "Олегович", 3, 62000);
         System.out.println(employeeBooks);
 
         System.out.println("Печатаем сотрудников по отделам.");

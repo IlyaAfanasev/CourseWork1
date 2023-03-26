@@ -230,10 +230,9 @@ public class EmployeeBook {
     }
 
     public void deleteFullNameAndId(String lastName, String firstName, String middleName, int id) {
-        Employee employee;
+
         for (int i = 0; i < employees.length; i++) {
-            employee = employees[i];
-            if (employee != null && employee.getLastName() == lastName && employee.getFirstName() == firstName && employee.getMiddleName() == middleName && employee.getId() == id) {
+            if (employees[i] != null && employees[i].getLastName() == lastName && employees[i].getFirstName() == firstName && employees[i].getMiddleName() == middleName && employees[i].getId() == id) {
                 employees[i] = null;
                 size--;
             }
@@ -241,10 +240,9 @@ public class EmployeeBook {
     }
 
     public void deleteFullName(String lastName, String firstName, String middleName) {
-        Employee employee;
+
         for (int i = 0; i < employees.length; i++) {
-            employee = employees[i];
-            if (employee != null && employee.getLastName() == lastName && employee.getFirstName() == firstName && employee.getMiddleName() == middleName) {
+            if (employees[i] != null && employees[i].getLastName() == lastName && employees[i].getFirstName() == firstName && employees[i].getMiddleName() == middleName) {
                 employees[i] = null;
                 size--;
                 break;
@@ -255,10 +253,9 @@ public class EmployeeBook {
     }
 
     public void deleteId(int id) {
-        Employee employee;
+
         for (int i = 0; i < employees.length; i++) {
-            employee = employees[i];
-            if (employee != null && employee.getId() == id) {
+            if (employees[i] != null && employees[i].getId() == id) {
                 employees[i] = null;
                 size--;
             }
