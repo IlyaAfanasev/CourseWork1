@@ -110,7 +110,7 @@ public class EmployeeBook {
 
 
     public void salaryIndexing(int index) {
-        ;
+
         for (Employee employee : employees) {
             if (employee != null) {
 
@@ -229,7 +229,7 @@ public class EmployeeBook {
 
     }
 
-    public void deleteFullNameAndId(String lastName, String firstName, String middleName, int id) {
+    public void deleteEmployee(String lastName, String firstName, String middleName, int id) {
 
         for (int i = 0; i < employees.length; i++) {
             if (employees[i] != null && employees[i].getLastName() == lastName && employees[i].getFirstName() == firstName && employees[i].getMiddleName() == middleName && employees[i].getId() == id) {
@@ -239,7 +239,7 @@ public class EmployeeBook {
         }
     }
 
-    public void deleteFullName(String lastName, String firstName, String middleName) {
+    public void deleteEmployee(String lastName, String firstName, String middleName) {
 
         for (int i = 0; i < employees.length; i++) {
             if (employees[i] != null && employees[i].getLastName() == lastName && employees[i].getFirstName() == firstName && employees[i].getMiddleName() == middleName) {
@@ -252,7 +252,7 @@ public class EmployeeBook {
         }
     }
 
-    public void deleteId(int id) {
+    public void deleteEmployee(int id) {
 
         for (int i = 0; i < employees.length; i++) {
             if (employees[i] != null && employees[i].getId() == id) {

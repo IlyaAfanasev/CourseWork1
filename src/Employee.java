@@ -5,7 +5,7 @@ public class Employee {
     private final String lastName, firstName, middleName;
     private double salary;
     private int department;
-    private final int  id;
+    private final int id;
     private static int count;
 
 

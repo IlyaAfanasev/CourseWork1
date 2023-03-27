@@ -69,9 +69,10 @@ public class Main {
         employeeBooks.salaryMoreThanNumber(55000);
         System.out.println();
 
-        employeeBooks.deleteFullNameAndId("Иванов", "Вячеслав", "Сергеевич", 2);
-        employeeBooks.deleteFullName("Суворов", "Игорь", "Александрович");
-        employeeBooks.deleteId(9);
+        employeeBooks.deleteEmployee("Иванов", "Вячеслав", "Сергеевич", 2);
+        employeeBooks.deleteEmployee("Суворов", "Игорь", "Александрович");
+        employeeBooks.deleteEmployee(9);
+
         System.out.println("Удалили сотрудников.");
         System.out.println(employeeBooks);
         System.out.println(employeeBooks.getSize());
