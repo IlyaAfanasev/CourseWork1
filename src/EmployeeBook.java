@@ -10,15 +10,15 @@ public class EmployeeBook {
 
     public void addEmployee(String lastName, String firstName, String middleName, int department, double salary) {
         for (int i = 0; i < employees.length; i++) {
-            if (size >= employees.length) {
-                System.out.println("Нельзя добавить контакт, закончилось место");
-            } else if (employees[i] == null) {
+
+              if (employees[i] == null) {
                 Employee newEmployee = new Employee(lastName, firstName, middleName, department, salary);
                 employees[i] = newEmployee;
                 size++;
-                break;
+                return;
             }
         }
+        System.out.println("Нельзя добавить контакт, закончилось место");
     }
 
     public int getSize() {
